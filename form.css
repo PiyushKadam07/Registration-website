@@ -1,0 +1,41 @@
+body {
+    background-color: #dbc816;
+}
+
+.header {
+    text-align: center;
+    font-size: 35px;
+}
+
+.main { 
+    text-align: center;
+}
+
+.mainContainer.success input {
+    border-color: #45db31;
+}
+
+.mainContainer.error input {
+    border-color: #e74c3c;
+}
+
+.mainContainer small {
+    color: #e74c3c;
+    position: relative;
+    visibility: hidden;
+}
+
+.mainContainer.error small {
+    visibility: visible;
+}
+
+button, .reset {
+    height: 30px;
+    width: 80px;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.basicform {
+    display: block;
+}
