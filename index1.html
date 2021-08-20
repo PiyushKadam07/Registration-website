@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+    <head>
+        <meta charset = "UTF-8">
+        <meta http-equiv = "X-UA-compatible"  content = "IE=edge">
+        <meta name = "viewport" content = "width=device-width, inital-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="./css/form1.css">  
+        <title> User Registration </title>
+    </head>
+
+    <body>
+        <div class = "basicform">
+            <center><h1>Registration Form</h1>
+            <div class = "main">
+                <form>
+                    <div class = "mainContainer">
+                        <label id = "a">First Name :</label>
+                        <input type="text" id="fname" placeholder="First Name">
+                        <small></small>
+                    </div>
+                    <div class = "mainContainer">
+                        <label id = "a">Last Name :</label>
+                        <input type="text" id="lname" placeholder="Last Name">
+                        <small></small>
+                    </div>
+                    <div class = "mainContainer">
+                        <label id = "a">Email :</label>
+                        <input type="email" id="email"  placeholder="Email">
+                        <small></small>
+                    </div>
+                    <div class = "mainContainer">
+                        <label id = "b">Gender :</label>
+                        <Label>Male</Label>  
+                        <input type="radio" name="gender" id="male" value="m">
+                        <Label>Female</Label>  
+                        <input type="radio" name="gender" id="female" value="f">
+                    </div>
+                    <div class = "mainContainer">
+                        <label id = "a">Date of birth : </label>
+                        <input type="date" id="date">
+                        <small></small>
+                    </div>
+                    <div class = "mainContainer">
+                        <label id = "a">Mobile :</label>
+                        <input type="tel" id="mobile" placeholder="Mobile">
+                        <small></small>
+                    </div>
+                    <div class = "mainContainer">
+                        <label id = "a">Password :</label>
+                        <input type="password" id="password" placeholder="Password">
+                        <small></small>
+                    </div>
+                    <div class = "mainContainer">
+                        <label id = "a">Confirm Password :</label>
+                        <input type="password" id="password2" placeholder="Enter password again">
+                        <small></small>
+                    </div>
+                    <button onclick="validate()">Submit</button>
+                </form>
+            </div></center>
+        </div>
+
+        <script src = "./js/valid.js"></script>
+    </body>
+</html>
