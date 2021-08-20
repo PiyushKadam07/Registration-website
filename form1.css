@@ -1,0 +1,67 @@
+.basicform {
+    padding: 50px;
+    background-color: lightblue;
+}
+
+#a {
+    width: 50%;
+    text-align: right;
+    margin: 19px 9px;
+}
+
+#b {
+    width: 50%;
+    text-align: right;
+    margin: -2px 9px;
+}
+
+.mainContainer {
+    display: flex;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+} 
+
+.main input {
+    width: 40%;
+    display: inline-block;
+    background: #f1f1f1;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+}
+
+small {
+    display: inline-block;
+    width: 30%;
+    flex-direction: row;
+}
+
+div {
+    padding: 5px 0;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    width: 30%;
+}
+
+.mainContainer.success input {
+    border-color: #45db31;
+}
+
+.mainContainer.error input {
+    border-color: #e74c3c;
+}
+
+.mainContainer small {
+    color: #e74c3c;
+    visibility: hidden;
+    text-align: left;
+    margin: 19px 12px;
+}
+
+.mainContainer.error small {
+    visibility: visible;
+}
+  
